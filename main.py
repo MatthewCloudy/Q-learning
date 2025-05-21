@@ -1,7 +1,8 @@
 from q_learning import *
 
+
 def test_1():
-    q_learning(10,0.5,0.5, 10)
+    Q = q_learning(1000,0.8,0.9, 1000)
 
 
 if __name__ == '__main__':
